@@ -142,7 +142,7 @@ html, body {
     align-items: center;
     width: 96px;
     height: 301px;
-    margin-top: 264px;
+    margin-top: 288px;
     margin-bottom: 148px;
     margin-left: 80px;
 }
@@ -155,6 +155,10 @@ html, body {
     justify-content: center;
     align-items: center;
     margin-top: 80px;
+    max-width: 496px;
+    max-height: 508px;
+    margin-top: 164px;
+    margin-left: 48px;
 }
 
 .titles h1 {
