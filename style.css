@@ -275,6 +275,7 @@ html, body {
     
     .titles {
         margin-top: 0px;
+        margin-left: 132px;
     }
 
 
@@ -336,6 +337,7 @@ html, body {
     
     .titles {
         margin-top: 0px;
+        margin-left: 0px;
 
     }
 
@@ -358,7 +360,7 @@ html, body {
     }
     
     .titles-p2 {
-        font-size: 24px;
+        font-size: 32px;
         text-align: center;
     }
     
