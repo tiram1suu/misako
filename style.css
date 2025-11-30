@@ -20,7 +20,7 @@ html, body {
     --font-family-system: "Lucida Grande", Arial, sans-serif;
 }
 
-.container {
+.container-hero {
     max-width: 100%;
     height: 704px;
     background-image: url(misako2-imgs/first-block_imgs/transparenr-bg.png);
@@ -232,7 +232,7 @@ html, body {
 
 
 @media (max-width: 1024px) {
-    .container {
+    .container-hero {
         max-width: 100%;
         padding: 0 40px;
         height: auto;
@@ -307,7 +307,7 @@ html, body {
 
 
 @media (max-width: 767px) {
-    .container {
+    .container-hero {
         padding: 0 20px;
         background-position: center;
     }
@@ -384,4 +384,134 @@ html, body {
 }
 
 
+/* MAIN */
 
+.cta-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    height: 304px;
+    margin-top: 32px;
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 968px;
+    height: 293px;
+    background-image: url(misako2-imgs/cards-imgs/cards-bg.png);
+    
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+/* CARD 1 */
+
+.card-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 216px;
+    height: 248px;
+    border-radius: 12%;
+    background-color: rgba(255, 255, 255, 0.113);
+}
+
+.card-1 img {
+    border-radius: 10%;
+}
+
+.announces {
+    padding-top: 14px;
+    font-size: 20px;
+    font-family: var(--font-family-primary);
+    letter-spacing: 3px;
+}
+
+.announces-2 {
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: var(--font-family-primary);
+    letter-spacing: 3px;
+}
+
+/* CARD 2 */
+
+.card-2 {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 216px;
+    height: 248px;
+    border-radius: 12%;
+    background-color: rgba(255, 255, 255, 0.113);
+}
+
+.card-2 img {
+    border-radius: 10%;
+}
+
+.tickets {
+    padding-top: 14px;
+    font-size: 20px;
+    font-family: var(--font-family-primary);
+    letter-spacing: 3px;
+}
+
+.tickets-2 {
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: var(--font-family-primary);
+    letter-spacing: 3px;
+}
+
+
+
+/* CARD 3 */
+
+.card-3 {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 216px;
+    height: 248px;
+    border-radius: 12%;
+    background-color: rgba(255, 255, 255, 0.113);
+}
+
+.card-3 img {
+    border-radius: 10%;
+}
+
+.merch {
+    padding-top: 14px;
+    font-size: 20px;
+    font-family: var(--font-family-primary);
+    letter-spacing: 3px;
+}
+
+.merch-2 {
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: var(--font-family-primary);
+    letter-spacing: 3px;
+}
+
+
+/* CONTAINER MAIN */
+
+.container-main {
+    max-width: 100%;
+    height: 2452px;
+    background-image: url(misako2-imgs/main-imgs/main-bgp.png);
+
+}
