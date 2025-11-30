@@ -7,7 +7,7 @@ Official website for the Misako musical band.
 - ✅ Responsive design  
 - ✅ Search functionality
 - ✅ Action cards section (tickets, merch, announcements)
-- 🚧 About section
+- ✅ About section
 - 🚧 Band members section
 - 🚧 Unique sound section
 - 🚧 Collaboration section
