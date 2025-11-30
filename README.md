@@ -4,9 +4,13 @@ Official website for the Misako musical band.
 
 ## Current Progress
 - ✅ Hero section with navigation
-- ✅ Responsive design
+- ✅ Responsive design  
 - ✅ Search functionality
-- 🚧 More sections coming soon
+- ✅ Action cards section (tickets, merch, announcements)
+- 🚧 About section
+- 🚧 Band members section
+- 🚧 Unique sound section
+- 🚧 Collaboration section
 
 ## Technologies
 - HTML5
