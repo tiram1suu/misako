@@ -6,6 +6,10 @@
     
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
   width: 100%;
   height: 100%;
@@ -514,4 +518,102 @@ a {
     height: 2452px;
     background-image: url(misako2-imgs/main-imgs/main-bgp.png);
 
+}
+
+/* ABOUT */
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 957px;
+    height: 684px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url(misako2-imgs/about-imgs/content-about-bg.jpeg);
+    background-size: 520px 514px;
+    background-repeat: no-repeat;
+    width: 520px;
+    height: 514px;
+
+    
+}
+
+.num-pic {
+    transform: scale(0.5);
+}
+
+.about-p1 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: var(--font-family-myanmar);
+    width: 209px;
+    height: 191px;
+    align-self: flex-end;
+    padding-left: 32px;
+    padding-top: 8px;
+
+}
+
+.about-p2 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: var(--font-family-myanmar);
+    width: 168px;
+    height: 152px;
+    padding-left: 24px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+
+}
+
+.about-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 288px;
+    width: 702px;
+    height: 48px;
+}
+
+.about-footer-elements {
+    display: flex;
+    flex-direction: row;
+    width: 147px;
+    height: 48px;
+    justify-content: space-between;
+
+}
+
+
+.about-footer img {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 8px;
+}
+
+.about-footer p {
+    font-family: var(--font-family-myanmar);
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding-top: 18px;
+    margin-left: 4px;
+}
+
+.about-footer-line-element {
+    width: 493px;
+    height: 8px;
+    border-bottom: 2px solid white;
+    align-self: center;
 }
