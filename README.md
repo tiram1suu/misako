@@ -14,7 +14,8 @@ Official website for the Misako musical band.
 
 ## Technologies
 - HTML5
-- CSS3  
+- CSS3
+- JavaScript  
 - Responsive design
 
 ## How to View
