@@ -93,15 +93,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 
-    function startAutoSlide() {
-        autoSlideInterval = setInterval(nextSlide, 10000); // Меняем каждые 5 секунд
-    }
-
-    function stopAutoSlide() {
-        clearInterval(autoSlideInterval);
-    }
-
-
     nextBtn.addEventListener('click', () => {
         nextSlide();
         stopAutoSlide();
