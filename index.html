@@ -10,6 +10,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Love+Light&display=swap');
     </style>
 </head>
 
@@ -23,16 +24,16 @@
                 <nav class="nav">
                     <div class="nav-list">
                         <p><a href="#about">ABOUT</a></p>
-                        <p><a href="#">MEMBERS</a></p>
-                        <p><a href="#">UNIQUE</a></p>
-                        <p><a href="#">MAIL</a></p>
+                        <p><a href="#members">MEMBERS</a></p>
+                        <p><a href="#unique">UNIQUE</a></p>
+                        <p><a href="#mail">MAIL</a></p>
                     </div>
                 </nav>
 
                 <img class="nav-dots" src="misako2-imgs/first-block_imgs/threedots2.png" alt="three dots">
 
-                <form class="search-form" action="/search" method="get">
-                    <input type="text" name="q" placeholder="SEARCH...">
+                <form class="search-form" id="searchForm">
+                    <input type="text" name="q" placeholder="SEARCH..." id="searchInput">
                 </form>
 
             </header>
@@ -107,7 +108,8 @@
             <section class="about" id="about" width="1440px" height="704px">
                 <div class="about-container">
                     <div class="about-content">
-                        <p class="about-p1">«Мисако» в переводе с японского означает «красота, цветение, ребёнок» - это полностью
+                        <p class="about-p1">«Мисако» в переводе с японского означает «красота, цветение, ребёнок» - это
+                            полностью
                             отражает нашу концепцию.
                             Мы создаём музыку на стыке культур, сочетая современные жанры с восточными мотивами.</p>
                         <p class="about-p2">Наш путь долог, как Китайская стена, и прекрасен, как лепестки лотоса.
@@ -128,11 +130,121 @@
                 </div>
             </section>
 
-            <section class="detail">
+            <section class="members" id="members">
+                <div class="container-members">
+                    <p class="side-p1">members members members members members members members members</p>
+
+                    <div class="slideshow-container">
+                        <div class="slides">
+
+                            <!-- SLIDE 1 -->
+
+                            <div class="slide active">
+                                <div class="avatar">
+                                    <img src="misako2-imgs/members-imgs/members-pic1.jpg" alt="Milena Zotova">
+                                    <p class="name">Milena Zotova</p>
+                                    <p class="bio">ритм гитара и вокал</p>
+                                </div>
+                                <article>
+                                    <h4>Вокалистка и лидер группы Милена задаёт ритм и энергию каждого выступления.</h4>
+                                    <p>«Если честно, идея создать свою музыкальную группу сидела во мне так долго, что я
+                                        уже
+                                        думала - она навсегда останется несбыточной мечтой…<br>
+                                        Но всё изменилось на втором курсе университета. Именно тогда у меня впервые
+                                        появился реальный шанс воплотить эту мечту - и это до сих пор безумно меня
+                                        радует!»<br>
+                                        Музыка сопровождала Милену с подросткового возраста - тянуло и к вокалу, и к
+                                        написанию песен. Под псевдонимом «Милепун» она уже выпустила собственную
+                                        композицию,
+                                        а теперь превращает давнее вдохновение в настоящее творческое дело.</p>
+                                </article>
+                            </div>
+
+                            <!-- SLIDE 2 -->
+
+                            <div class="slide">
+                                <div class="avatar">
+                                    <img src="misako2-imgs/members-imgs/members-pic2.jpg" alt="Dasha">
+                                    <p class="name">Daria Savushkina</p>
+                                    <p class="bio">бас гитара / соло гитара</p>
+                                </div>
+                                <article>
+                                    <h4>Даша создаёт мощное звучание на бас-гитаре и виртуозные соло.</h4>
+                                    <p>«Мечтала играть в группе с детства. Когда упоминают слово музыка у меня всегда в
+                                        голове всплывают воспоминания, как передо мной сидит отец с гитарой и играет
+                                        песню "Звезда по имени солнце" , да и с детства у меня всегда был пример
+                                        группы кино. Да, не идеально, но меня пробирало до глубины души. Играла
+                                        несколько
+                                        лет в рок группе в колледже, даже ставила сама песню. Пришла сюда чисто
+                                        случайно, но уже в голове целая буря идей и мыслей»</p>
+                                </article>
+                            </div>
+
+                            <!-- SLIDE 3 -->
+
+                            <div class="slide">
+                                <div class="avatar">
+                                    <img src="misako2-imgs/members-imgs/members-pic3.jpg" alt="Anastasia">
+                                    <p class="name">Anastasia Abbakumova</p>
+                                    <p class="bio">вокал, флейта/гуцинь</p>
+                                </div>
+                                <article>
+                                    <h4>Анастасия соединяет запад и восток через вокал, флейту ди и мелодичный гуцинь.
+                                    </h4>
+                                    <p>«С ранних лет я занимаюсь вокалом и игрой на разных инструментах, а также очень
+                                        давно интересуюсь культурой разных стран Азии. Я всегда хотела реализоваться в
+                                        этом творческом направлении и безмерно рада осуществить свою мечту в группе
+                                        МИСАКО!» <br> С семи лет выступала на вокальных фестивалях, в 9 лет получила
+                                        первую награду. Пела в хорах «Благовест» и «Апрель» как сопрано. В 16 лет её
+                                        назвали «серебряным голосом» организации «Деловая Россия», а в 17 записала
+                                        первый клип под псевдонимом «abozh B A M B Ú L E».</p>
+                                </article>
+                            </div>
+
+                            <!-- SLIDE 4 -->
+
+                            <div class="slide">
+                                <div class="avatar">
+                                    <img src="misako2-imgs/members-imgs/members-pic4.jpg" alt="Margarita">
+                                    <p class="name">Margarita Tarkhanova</p>
+                                    <p class="bio">барабаны</p>
+                                </div>
+                                <article>
+                                    <h4>Маргарита завершает композицию выразительными барабанными партиями.</h4>
+                                    <p>«Как-то раз после выступления я замечталась о своей музыкальной группе, и в тот
+                                        же день мне предложили присоединиться к Мисако. Кажется, это судьба!» <br> Марго
+                                        изначально играла на клавишных инструментах, но со временем поняла, что её душа
+                                        больше лежит к ударным. Ритм и энергия барабанов стали для неё главным способом
+                                        выражения музыкальных эмоций.
+                                        Уже с детства ей хотелось стать частью настоящей музыкальной группы и выступать
+                                        на сцене, как кумиры-музыканты. </p>
+                                </article>
+                            </div>
+                        </div>
+
+
+                        <div class="navigation-dots">
+                            <span class="dot active" data-slide="0"></span>
+                            <span class="dot" data-slide="1"></span>
+                            <span class="dot" data-slide="2"></span>
+                            <span class="dot" data-slide="3"></span>
+                        </div>
+
+
+                        <button class="prev-btn">‹</button>
+                        <button class="next-btn">›</button>
+                    </div>
+
+
+                    <p class="side-p2">members members members members members members members members</p>
+                </div>
+            </section>
+
+            <section class="unique" id="unique">
 
             </section>
 
-            <section class="overview">
+            <section class="mail" id="mail">
 
             </section>
 
@@ -141,6 +253,8 @@
     </main>
 
     <footer></footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
