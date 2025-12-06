@@ -236,7 +236,7 @@ html, body {
 
 
 
-@media (max-width: 1024px) {
+ /* @media (max-width: 1024px) {
     .container-hero {
         max-width: 100%;
         padding: 0 40px;
@@ -311,7 +311,7 @@ html, body {
 }
 
 
-@media (max-width: 767px) {
+ @media (max-width: 767px) {
     .container-hero {
         padding: 0 20px;
         background-position: center;
@@ -964,4 +964,273 @@ article p {
     justify-self: center;
     margin-top: 36px;
     opacity: 50%;
+}
+
+/* ADAPTATION HERO*/
+
+
+@media (max-width: 1024px) {
+    .container-hero {
+        max-width: 100%;
+        padding: 0 40px;
+        height: auto;
+        min-height: 600px;
+    }
+    
+    .header {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .header img {
+        margin-right: 0;
+        order: -1;
+    }
+    
+    .nav {
+        max-width: 100%;
+    }
+    
+    .search-form {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        height: auto;
+        gap: 40px;
+    }
+    
+    .contacts {
+        margin: 40px auto;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        height: auto;
+        gap: 24px;
+    }
+    
+    .titles {
+        margin-top: 0px;
+        margin-left: 132px;
+    }
+
+
+    .titles h1 {
+        font-size: 72px;
+    }
+    
+    .titles h2 {
+        font-size: 48px;
+    }
+    
+    .hero-images {
+        margin: 40px auto;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        padding-left: 0;
+    }
+    
+    .hero-images::before {
+        display: none; 
+    }
+
+    .hero-images img {
+        margin-right: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-hero {
+        padding: 0 20px;
+        background-position: center;
+    }
+    
+    .nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .nav-list p {
+        padding: 10px 15px;
+    }
+    
+    .header img {
+        margin-left: 0px;
+    }
+
+    .search-form input {
+        width: 356px;
+    }
+
+    .search-form {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .titles {
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+
+    .titles h1 {
+        font-size: 72px;
+        text-align: center;
+    }
+    
+    .titles h2 {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 64px;
+    }
+    
+    .titles-p1 {
+        font-size: 24px;
+        letter-spacing: 8px;
+        text-align: center;
+        padding-bottom: 64px;
+    }
+    
+    .titles-p2 {
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .contacts {
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .hero-images {
+        padding-top: 16px;
+        border-top: 2px solid white;
+    }
+
+    .hero-images img {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+    }
+}
+
+/* ADAPTATION CTA CARDS*/
+
+@media screen and (max-width: 968px) {
+    .container-cards {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; 
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        gap: 20px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    
+    .container-cards::-webkit-scrollbar {
+        display: none; 
+    }
+    
+    .container-cards a {
+        flex: 0 0 auto;
+        scroll-snap-align: start;
+    }
+    
+    .card-1,
+    .card-2,
+    .card-3 {
+        flex-shrink: 0;
+    }
+    
+    .container-cards a:last-child {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cta-cards {
+        height: auto;
+        min-height: 304px;
+        margin-top: 24px;
+    }
+    
+    .container-cards {
+        height: auto;
+        min-height: 293px;
+        padding: 0 16px;
+        gap: 16px;
+        background-size: cover;
+    }
+    
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 200px;
+        height: 230px;
+    }
+    
+    .card-1 img,
+    .card-2 img,
+    .card-3 img {
+        width: 160px;
+        height: 130px;
+    }
+    
+    .announces,
+    .tickets,
+    .merch {
+        font-size: 18px;
+        padding-top: 12px;
+    }
+    
+    .announces-2,
+    .tickets-2,
+    .merch-2 {
+        font-size: 11px;
+        padding-top: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container-cards {
+        padding: 0 12px;
+        gap: 12px;
+    }
+    
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 180px;
+        height: 210px;
+    }
+    
+    .card-1 img,
+    .card-2 img,
+    .card-3 img {
+        width: 140px;
+        height: 110px;
+    }
+    
+    .announces,
+    .tickets,
+    .merch {
+        font-size: 16px;
+    }
+    
+    .announces-2,
+    .tickets-2,
+    .merch-2 {
+        font-size: 10px;
+    }
 }
