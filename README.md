@@ -9,8 +9,8 @@ Official website for the Misako musical band.
 - ✅ Action cards section (tickets, merch, announcements)
 - ✅ About section
 - ✅ Band members section
-- 🚧 Unique sound section
-- 🚧 Collaboration section
+- ✅ Unique sound section
+- ✅ Collaboration section
 
 ## Technologies
 - HTML5
