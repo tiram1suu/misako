@@ -870,3 +870,93 @@ article p {
 .text {
     padding-top: 32px;
 }
+
+
+/* CONTACTS SECTION */
+
+.mail {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 357px;
+}
+
+.mail-container {
+    display: flex;
+    justify-content: space-around;
+    width: 957px;
+    height: 357px;
+    
+}
+
+.mail-pics {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-right: 24px;
+    width: 489px;
+    height: 182px;
+}
+
+.num-mail {
+    width: 126px;
+    height: 290px;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 32px;
+    border-radius: 22px;
+    width: 807px;
+    height: 239px;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.mail-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 224px;
+    height: 201px;
+    margin-left: 24px;
+}
+
+.mail-info-p {
+    width: 213px;
+    height: 140px;
+    font-size: 16px;
+    font-family: var(--font-family-myanmar);
+    font-weight: 300;
+}
+
+.button-p {
+    font-size: 13px;
+    font-family: var(--font-family-myanmar);
+    font-weight: 300;
+    padding-top: 3px;
+}
+
+.mail-info button {
+    display: flex;
+    padding-top: 6px;
+    justify-content: center;
+    width: 194px;
+    height: 34px;
+    background-color: rgb(222, 5, 5);
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.mail-info button:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+.contact-box img {
+    align-self: center;
+}
+
