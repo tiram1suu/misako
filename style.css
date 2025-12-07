@@ -637,7 +637,7 @@ a {
 }
 
 .bio {
-    font-size: 10px;
+    font-size: 12px;
     font-family: var(--font-family-myanmar);
     text-align: center;
     margin: 0;
@@ -1614,7 +1614,7 @@ footer {
 
 @media screen and (max-width: 1024px) {
     .members {
-        display: flex !important; /* Вот это критично! */
+        display: flex !important;
         width: 100% !important;
         height: auto !important;
         min-height: 400px !important;
