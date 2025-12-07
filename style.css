@@ -1610,61 +1610,75 @@ footer {
 /* ADAPTATION MEMBERS */
 
 
+/* ===== ADAPTATION MEMBERS ===== */
+
 @media screen and (max-width: 1024px) {
     .members {
-        width: 100%;
-        height: auto;
-        min-height: 434px;
-        padding: 20px 0;
+        display: flex !important; /* Вот это критично! */
+        width: 100% !important;
+        height: auto !important;
+        min-height: 400px !important;
+        padding: 40px 20px !important;
+        margin: 0 auto !important;
+        visibility: visible !important;
+        opacity: 1 !important;
     }
 
     .container-members {
-        width: 90%;
-        max-width: 768px;
-        height: auto;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-        padding: 20px 0;
+        width: 100% !important;
+        max-width: 800px !important;
+        height: auto !important;
+        padding: 20px 0 !important;
+        margin: 0 auto !important;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.3) !important;
     }
 
     .slideshow-container {
-        width: 100%;
-        max-width: 700px;
-        height: auto;
-        min-height: 500px;
-        margin: 20px auto;
+        display: block !important;
+        width: 100% !important;
+        max-width: 700px !important;
+        height: auto !important;
+        min-height: 400px !important;
+        margin: 20px auto !important;
+        visibility: visible !important;
+        opacity: 1 !important;
         overflow: visible !important;
     }
 
     .slides {
-        flex-direction: column;
-        transition: none !important;
-        height: auto;
-        overflow: visible !important;
+        display: flex !important;
+        flex-direction: column !important;
+        height: auto !important;
+        gap: 20px !important;
         transform: none !important;
+        transition: none !important;
     }
 
     .slide {
+        display: flex !important;
         min-width: 100% !important;
         width: 100% !important;
         height: auto !important;
-        min-height: 450px;
-        flex-direction: column;
-        justify-content: flex-start;
-        gap: 20px;
-        padding: 25px 20px;
-        box-sizing: border-box;
+        min-height: 350px !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
         opacity: 1 !important;
+        visibility: visible !important;
         position: relative !important;
-        margin-bottom: 20px;
-        display: flex !important;
+        margin-bottom: 20px !important;
+        gap: 20px !important;
+        padding: 25px 20px !important;
     }
 
+    .slide.active {
+        opacity: 1 !important;
+    }
 
     .prev-btn,
     .next-btn {
         display: none !important;
     }
-
 
     .navigation-dots {
         display: none !important;
@@ -1673,7 +1687,7 @@ footer {
     .avatar {
         width: 100% !important;
         height: auto !important;
-        margin-bottom: 20px;
+        margin-bottom: 20px !important;
     }
 
     .avatar img {
@@ -1691,56 +1705,63 @@ footer {
     }
 
     article h4 {
-        font-size: 16px;
-        text-align: center;
-        margin-bottom: 15px;
+        font-size: 16px !important;
+        text-align: center !important;
+        margin-bottom: 15px !important;
+        line-height: 1.4 !important;
     }
 
     article p {
-        font-size: 13px;
-        line-height: 1.5;
-        text-align: justify;
+        font-size: 13px !important;
+        line-height: 1.5 !important;
+        text-align: justify !important;
+        max-height: 200px !important;
+        overflow-y: auto !important;
     }
 
     .name {
-        font-size: 16px;
-        padding-top: 12px;
+        font-size: 16px !important;
+        padding-top: 12px !important;
+        padding-bottom: 6px !important;
     }
 
     .bio {
-        font-size: 9px;
+        font-size: 9px !important;
     }
 
     .side-p1,
     .side-p2 {
-        font-size: 24px;
-        letter-spacing: 2px;
-        height: auto;
-        margin: 10px 0;
-        text-align: center;
-        width: 100%;
-        overflow: hidden;
-        white-space: nowrap;
+        font-size: 24px !important;
+        letter-spacing: 2px !important;
+        height: auto !important;
+        margin: 10px 0 !important;
+        text-align: center !important;
+        width: 100% !important;
+        overflow: hidden !important;
+        white-space: nowrap !important;
+        opacity: 0.5 !important;
     }
 }
 
-
 @media screen and (max-width: 768px) {
+    .members {
+        padding: 30px 15px !important;
+        min-height: 350px !important;
+    }
+
     .container-members {
-        width: 95%;
-        padding: 15px 0;
+        padding: 15px 0 !important;
     }
 
     .slideshow-container {
-        max-width: 95%;
-        height: auto;
+        max-width: 95% !important;
+        min-height: 380px !important;
     }
 
     .slide {
         min-height: auto !important;
-        height: auto !important;
         padding: 20px 15px !important;
-        margin-bottom: 15px;
+        margin-bottom: 15px !important;
     }
 
     .avatar img {
@@ -1749,37 +1770,46 @@ footer {
     }
 
     article h4 {
-        font-size: 15px;
-        line-height: 1.3;
+        font-size: 15px !important;
+        line-height: 1.3 !important;
     }
 
     article p {
-        font-size: 12px;
-        line-height: 1.4;
-        max-height: 200px;
-        overflow-y: auto;
+        font-size: 12px !important;
+        line-height: 1.4 !important;
+        max-height: 180px !important;
     }
 
     .name {
-        font-size: 15px;
+        font-size: 15px !important;
+    }
+
+    .bio {
+        font-size: 8px !important;
     }
 
     .side-p1,
     .side-p2 {
-        font-size: 20px;
-        letter-spacing: 1px;
+        font-size: 20px !important;
+        letter-spacing: 1px !important;
     }
 }
 
-
 @media screen and (max-width: 480px) {
+    .members {
+        padding: 20px 10px !important;
+        min-height: 300px !important;
+    }
+
     .slideshow-container {
-        max-width: 98%;
+        max-width: 98% !important;
+        min-height: 350px !important;
     }
 
     .slide {
         padding: 15px 10px !important;
-        margin-bottom: 10px;
+        margin-bottom: 10px !important;
+        min-height: 320px !important;
     }
 
     .avatar img {
@@ -1787,86 +1817,57 @@ footer {
         height: 140px !important;
     }
 
-    .name {
-        font-size: 14px;
-        padding-top: 10px;
-    }
-
-    .bio {
-        font-size: 8px;
-    }
-
     article h4 {
-        font-size: 14px;
-        margin-bottom: 12px;
+        font-size: 14px !important;
+        margin-bottom: 12px !important;
     }
 
     article p {
-        font-size: 11px;
-        line-height: 1.4;
-        text-align: left;
-        max-height: 180px;
+        font-size: 11px !important;
+        line-height: 1.4 !important;
+        text-align: left !important;
+        max-height: 150px !important;
+    }
+
+    .name {
+        font-size: 14px !important;
+        padding-top: 10px !important;
+    }
+
+    .bio {
+        font-size: 8px !important;
     }
 
     .side-p1,
     .side-p2 {
-        font-size: 16px;
-        letter-spacing: 0.5px;
-        margin: 5px 0;
+        font-size: 16px !important;
+        letter-spacing: 0.5px !important;
+        margin: 5px 0 !important;
     }
 }
 
-
-@media screen and (min-width: 1025px) {
-
-    .slideshow-container {
-        overflow: hidden !important;
-    }
-
-    .slides {
-        flex-direction: row !important;
-        transition: transform 0.5s ease !important;
-        height: 100% !important;
-        overflow: hidden !important;
-        transform: translateX(0) !important;
-    }
-
-    .slide {
-        min-width: 982px !important;
-        height: 301px !important;
-        flex-direction: row !important;
-        opacity: 0 !important;
-        margin-bottom: 0 !important;
-    }
-
-    .slide.active {
-        opacity: 1 !important;
-    }
-
-    .prev-btn,
-    .next-btn {
-        display: block !important;
-    }
-
-    .navigation-dots {
-        display: flex !important;
-    }
-
-    .avatar {
-        width: 224px !important;
-        height: 100% !important;
-    }
-
+@media screen and (max-width: 360px) {
     .avatar img {
-        width: 216px !important;
-        height: 198px !important;
-        border-radius: 24px !important;
+        width: 120px !important;
+        height: 120px !important;
     }
 
-    article {
-        width: 600px !important;
-        max-height: 280px !important;
-        padding: 20px !important;
+    article h4 {
+        font-size: 13px !important;
+    }
+
+    article p {
+        font-size: 10px !important;
+        max-height: 130px !important;
+    }
+
+    .name {
+        font-size: 13px !important;
+    }
+
+    .side-p1,
+    .side-p2 {
+        font-size: 14px !important;
     }
 }
 
