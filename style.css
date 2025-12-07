@@ -2268,3 +2268,38 @@ footer {
         font-size: 11px;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    html, body {
+        width: 100% !important;
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+        position: relative !important;
+    }
+    
+    .container-hero,
+    .container-main,
+    .members,
+    .unique,
+    .mail,
+    footer {
+        width: 100% !important;
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+
+    * {
+        max-width: 100vw !important;
+        box-sizing: border-box !important;
+    }
+    
+
+    .members { width: 100% !important; max-width: 100% !important; }
+    .unique { width: 100% !important; max-width: 100% !important; }
+    .mail { width: 100% !important; max-width: 100% !important; }
+    footer { width: 100% !important; max-width: 100% !important; }
+}
