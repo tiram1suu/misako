@@ -20,6 +20,9 @@ Official website for the Misako musical band.
 
 ## How to View
 
+## 🚀 Live Demo
+[Explore Misako →](https://tiram1suu.github.io/misako/)
+
 ## 💻 Local Setup
 1. Download project files
 2. Open `index.html` in your browser
