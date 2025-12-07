@@ -20,9 +20,6 @@ Official website for the Misako musical band.
 
 ## How to View
 
-## 🌐 Live Site
-https://misako.netlify.app/
-
 ## 💻 Local Setup
 1. Download project files
 2. Open `index.html` in your browser
