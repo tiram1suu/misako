@@ -849,14 +849,38 @@ article p {
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    
+    flex-direction: column;
     width: 1440px;
-    height: 72px;
+    height: 96px;
 }
 
-footer p {
+.footer-p-mail {
     margin-top: 36px;
 }
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 72px;
+    width: 176px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: rgb(154, 2, 2);
+}
+
+.footer-p-mail {
+    align-self: center;
+    margin-bottom: 16px;
+}
+
+.footer-logo-p {
+    margin-top: 2px;
+}
+
+
 
 /* ADAPTATION HERO*/
 
